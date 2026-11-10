@@ -4,13 +4,13 @@ import { Link, useNavigate } from 'react-router-dom'
 
 function LoginPage() {
     
-    //store username and password
+    // store username and password
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
 
     const navigate = useNavigate()
 
-    // handling for form submittion
+    // handle form submittion
     function handleLogin(event) {
         event.preventDefault()
 

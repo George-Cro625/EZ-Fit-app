@@ -1,0 +1,28 @@
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 40px;
+}
+
+.user-info {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #084e8b;
+}
+
+.overall-stats {
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(60, 169, 6, 0.83);
+}
+
+.profile-container h2 {
+    margin-top: 0;
+}
