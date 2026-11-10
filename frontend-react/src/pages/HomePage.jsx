@@ -35,7 +35,7 @@ function HomePage() {
         const fetchLatestWorkout = async () => {
             try {
                 const response = await fetch(
-                    "http://localhost:3000/api/workouts/latest"
+                    "http://localhost:5000/api/workouts/latest"
                 );
 
                 if (!response.ok) {
@@ -88,7 +88,7 @@ function HomePage() {
         try {
 
             const response = await fetch(
-                "http://localhost:3000/api/workouts",
+                "http://localhost:5000/api/workouts",
                 {
                     method: "POST",
                     headers: {
